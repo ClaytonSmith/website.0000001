@@ -1,5 +1,18 @@
+/*
+* File: global.css
+* Programmer: Clayton Smith, Clayton_smith@student.uml.edu
+* Assignment: 3
+*       Copyright (c) 2014 by Clayton K. Smith.
+*         All rights reserved. May be freely copied or excerpted for any purpose with
+*         credit to the author.
+*
+*       Creation Date: 09/10/2014 (MM/DD/YYYY)
+*/
+
 
 @import url(http://fonts.googleapis.com/css?family=Oxygen:400,300,700);
+
+/* sets the background of the webpage */
 body {
   background: #f1c40f;
   font-family: "Oxygen", helvetica, arial, sans-serif;
@@ -9,6 +22,7 @@ body {
   padding: 100px 0 0;
 }
 
+/* button class */
 .button {
   background-image: -webkit-linear-gradient(106deg, #f7392b 50%, #ee3022 50%);
   background-image: linear-gradient(-16deg, #f7392b 50%, #ee3022 50%);
@@ -20,6 +34,8 @@ body {
   position: relative;
   max-width: 100%;
 }
+
+/* sets the look after the button has been clicked */
 .button:after {
   content: "";
   background: #fff;
@@ -35,9 +51,13 @@ body {
   -ms-transition: all 0.3s ease-out;
   -o-transition: all 0.3s ease-out;
 }
+
+/* button hover effect */
 .button:hover {
   color: #fff;
 }
+
+/* button hover after */
 .button:hover:after {
   width: 70%;
   left: 15%;
